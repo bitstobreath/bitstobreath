@@ -1,0 +1,482 @@
+// Use SASS or SCSS
+
+@use "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// User common CSS
+
+body {
+  background-color: rgb(79, 79, 255, 0.45);
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#music-and-code-svg {
+  height: 38vh;
+}
+
+#main-svg {
+  padding-top: 6vh;
+}
+
+#vs-app {
+  height: 52vh;
+  margin-bottom: 2vh;
+}
+#audio-player {
+  display: none;
+}
+
+/*
+Fancy App Window Start
+*/
+.vs-app-window {
+  padding: 0px;
+  border: 3px solid rgb(60, 60, 60);
+  border-radius: 8px;
+  border-radius: 8px;
+  background-color: rgb(30, 30, 30);
+}
+
+.vs-app-toolbar {
+  background-color: rgb(60, 60, 60);
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.vs-app-info-bar {
+  background-color: rgb(30, 30, 30);
+  color: darkgray;
+  padding: 0;
+  margin: 0;
+}
+
+.vs-app-dots {
+  padding-top: 3px;
+}
+
+.vs-app-dot {
+  margin: 4px;
+  height: 12px;
+  width: 12px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.vs-app-red {
+  margin-left: 6px;
+  background-color: #ED594A;
+}
+
+.vs-app-yellow {
+  background-color: #FDD800;
+}
+
+.vs-app-green {
+  background-color: #5AC05A;
+}
+
+.correct {
+  color: #58A446;
+}
+.wrong {
+  color: red;
+}
+.typing {
+  color: white;
+}
+
+.tab-list { 
+  background-color: rgb(37, 37, 38);
+  height: calc(26px + 0.4vw);
+  padding: 0;
+  margin: 0;
+}
+
+.tab-list-item {
+  background-color: rgb(45, 45, 45);
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: calc(0.9rem + 0.4vw);
+  padding-top: 2px;
+  height: 100%;
+  width: 25%;
+  list-style: none;
+  text-align: center;
+}
+
+.tab-list-active {
+    background-color: rgb(30, 30, 30);
+}
+
+.tab-content {
+  margin-left: 0.4vw;
+  font-size: calc(1rem + 0.4vw);
+}
+
+a.mytube {
+  text-decoration: none;
+  color: #FF0000;
+}
+
+a.mytiktok {
+  text-decoration: none;
+  color: #25F4EE;
+}
+
+a.mytwitch {
+  text-decoration: none;
+  color: #9146FF;
+}
+
+a.myX {
+  text-decoration: none;
+  color: #AAAAAA;
+}
+
+a.myinsta {
+  text-decoration: none;
+  color: #E1306C;
+}
+
+a.myfacebook {
+  text-decoration: none;
+  color: #0165E1;
+}
+
+a.mylink {
+  text-decoration: none;
+  color: #2867b2;
+}
+/*
+Fancy App Window End
+*/
+
+/*
+Fancy Github Blink Start
+*/
+.blink {
+  -webkit-animation: blink 4s infinite both;
+          animation: blink 4s infinite both;
+}
+
+@-webkit-keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0.2;
+  }
+}
+@keyframes blink {
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+  25%,
+  75% {
+    opacity: 0;
+  }
+}
+/*
+Fancy Github Blink End
+*/
+
+/*
+Fancy Music Start
+*/
+@keyframes note-translate {
+  0%   {
+    transform: translateY(-4px);
+  }
+  50%  {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes note-rotate {
+  0%   {
+    transform: rotateZ(-10deg);
+  }
+  50%  {
+    transform: rotateZ(10deg);
+  }
+  100% {
+    transform: rotateZ(-10deg);
+  }
+}
+
+#right-note-a, #left-note-a {
+  animation: note-translate 2.3s infinite linear;
+  -webkit-animation: note-translate 2.3s infinite linear;
+  -moz-animation: note-translate 2.3s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#right-note-b, #left-note-b {
+  animation: note-translate 2.2s infinite linear;
+  -webkit-animation: note-translate 2.2s infinite linear;
+  -moz-animation: note-translate 2.2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#right-note-c, #left-note-c {
+  animation: note-translate 2.1s infinite linear;
+  -webkit-animation: note-translate 2.1s infinite linear;
+  -moz-animation: note-translate 2.1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#right-note-aa, #left-note-aa {
+  animation: note-rotate 2.7s infinite linear;
+  -webkit-animation: note-rotate 2.7s infinite linear;
+  -moz-animation: note-rotate 2.7s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  position: absolute;
+}
+
+#right-note-bb, #left-note-bb {
+  animation: note-rotate 2.6s infinite linear;
+  -webkit-animation: note-rotate 2.6s infinite linear;
+  -moz-animation: note-rotate 2.6s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  position: absolute;
+}
+
+#right-note-cc, #left-note-cc {
+  animation: note-rotate 2.5s infinite linear;
+  -webkit-animation: note-rotate 2.5s infinite linear;
+  -moz-animation: note-rotate 2.5s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+  position: absolute;
+}
+/*
+Fancy Music End
+*/
+
+/*
+Fancy Head Bobbing Start
+*/
+@keyframes head-move {
+  0%   {
+    transform: rotateZ(-7deg);
+  }
+  5%   {
+    transform: rotateZ(-6.5deg);
+  }
+  45%   {
+    transform: rotateZ(6.5deg);
+  }
+  50%  {
+    transform: rotateZ(7deg);
+  }
+  55%   {
+    transform: rotateZ(6.5deg);
+  }
+  95%   {
+    transform: rotateZ(-6.5deg);
+  }
+  100% {
+    transform: rotateZ(-7deg);
+  }
+}
+
+#head-about {
+  animation: head-move 2s infinite linear;
+  -webkit-animation: head-move 2s infinite linear;
+  -moz-animation: head-move 2s infinite linear;
+  transform-origin: bottom;
+  transform-box: fill-box;
+  position: relative;
+}
+/*
+Fancy Head Bobbing End
+*/
+
+/*
+Fancy Coffee Steam Begin
+*/
+@keyframes steam-translate {
+  0%   {
+    transform: translateY(-2px);
+  }
+  50%  {
+    transform: translateY(2px);
+  }
+  100% {
+    transform: translateY(-2px);
+  }
+}
+
+@keyframes steam-rotate {
+    from {
+      transform: rotateY(0deg);
+    }
+    to {
+      transform: rotateY(360deg);
+    }
+}
+
+#steam-a {
+  animation: steam-translate 2.3s infinite linear;
+  -webkit-animation: steam-translate 2.3s infinite linear;
+  -moz-animation: steam-translate 2.3s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#steam-b {
+  animation: steam-translate 2.2s infinite linear;
+  -webkit-animation: steam-translate 2.2s infinite linear;
+  -moz-animation: steam-translate 2.2s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#steam-c {
+  animation: steam-translate 2.1s infinite linear;
+  -webkit-animation: steam-translate 2.1s infinite linear;
+  -moz-animation: steam-translate 2.1s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#steam-aa {
+  animation: steam-rotate 2.7s infinite linear;
+  -webkit-animation: steam-rotate 2.7s infinite linear;
+  -moz-animation: steam-rotate 2.7s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#steam-bb {
+  animation: steam-rotate 2.6s infinite linear;
+  -webkit-animation: steam-rotate 2.6s infinite linear;
+  -moz-animation: steam-rotate 2.6s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+#steam-cc {
+  animation: steam-rotate 2.5s infinite linear;
+  -webkit-animation: steam-rotate 2.5s infinite linear;
+  -moz-animation: steam-rotate 2.5s infinite linear;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+/*
+Fancy Coffee Steam End
+*/
+
+/*
+Fancy Audio Button Begin
+*/
+input[class="happy"] {
+  opacity: 0;
+}
+#audio-svg {
+  height: 6vh;
+  max-width: 10vw;
+  fill: #E6E6E6;
+}
+input[type="checkbox"]+svg {
+	-webkit-transition: all 0.2s;
+	transition: all 0.2s;
+}
+/*
+Fancy Audio Button End
+*/
+
+/*
+Fancy Horizontal Scroller Start
+*/
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+.work-anim-text {
+  font-size: calc(0.9rem + 0.3vw);
+}
+
+.containers {
+  display: flex;
+  overflow-x: scroll;
+  width: 100%;
+  padding: 3vh 0;
+  margin-top: 2vh;
+}
+
+.cards {
+  flex-shrink: 0;
+  width: 27vh;
+  height: 16vh;
+  border-radius: 10px;
+  border: #CCCCCC solid 3px;
+  margin-left: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/*
+Fancy Horizontal Scroller End
+*/
+
+/*
+Fancy Modal Start
+*/
+.modal {
+  font-size: calc(1rem + 0.3vw);
+}
+/*
+Fancy Modal End
+*/
+
+
+/*
+Cursor Start
+*/
+.my__cursor{
+  -webkit-animation:Typewriter-cursor 1s infinite;
+  animation:Typewriter-cursor 1s infinite;
+  margin-left:1px
+}
+
+@-webkit-keyframes Typewriter-cursor{
+  0%{opacity:0}
+  50%{opacity:1}
+  100%{opacity:0}
+}
+
+@keyframes Typewriter-cursor{
+  0%{opacity:0}
+  50%{opacity:1}
+  100%{opacity:0}
+}
+/*
+Cursor End
+*/
