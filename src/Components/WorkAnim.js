@@ -22,13 +22,13 @@ import { useGesture } from "react-use-gesture";
 let Tiles = []
 
 Tiles.push(new Tile(
-    "Github Action for copying files to other repositories, in an easy and repeatable way.",
-    " - developed solo",
-    "bash, perl, Dockerfile",
-    "GitHub Action",
-    "View Repository",
-    "https://github.com/Bits-To-Breath/git-get-cloned-action",
-    "/git-get-cloned-action.png"
+    "Blackberry Cyber Security Professional",
+    " - developed modular code for company security features",
+    "Security Systems Developer and SOC Developer",
+    "Blackberry",
+    "View Company",
+    "https://blackberry.com",
+    "/Blackberry.png"
 ));
 
 Tiles.push(new Tile(
@@ -42,13 +42,23 @@ Tiles.push(new Tile(
 ));
 
 Tiles.push(new Tile(
-    "Light themed bootstrap style website for gravel business.",
-    " - developed solo",
-    "css, html, bootstrap, js",
-    "Mikinaak Site",
-    "View Business Site",
-    "https://mikinaakllc.com/",
-    "/mknk.png"
+    "Industrial Automation Teacher",
+    " - developed student knowledge",
+    "Fanuc, ABB, Motoman",
+    "St Clair College",
+    "View College",
+    "https://stclaircollege.ca/",
+    "/scc.jpg"
+));
+
+Tiles.push(new Tile(
+    "Cyber Security Student",
+    " - developed student knowledge",
+    "Cyber Requirements, Pentesting and Defensive Security",
+    "Toronto Metropolitan University",
+    "View University",
+    "https://www.torontomu.ca/",
+    "/tmu.png"
 ));
 
 /**

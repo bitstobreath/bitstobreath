@@ -53,6 +53,7 @@ Fancy App Window Start
 }
 
 .vs-app-info-bar {
+  font-size: smaller;
   background-color: rgb(30, 30, 30);
   color: darkgray;
   padding: 0;
@@ -66,7 +67,7 @@ Fancy App Window Start
 .vs-app-dot {
   margin: 4px;
   height: 12px;
-  width: 12px;
+  width: 10px;
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
@@ -112,7 +113,7 @@ Fancy App Window Start
   font-size: calc(0.9rem + 0.4vw);
   padding-top: 2px;
   height: 100%;
-  width: 25%;
+  width: 20%;
   list-style: none;
   text-align: center;
 }
@@ -156,6 +157,11 @@ a.myfacebook {
   color: #0165E1;
 }
 
+a.myvarsity {
+  text-decoration: none;
+  color: #E1306C
+}
+
 a.mylink {
   text-decoration: none;
   color: #2867b2;
@@ -191,7 +197,7 @@ Fancy Github Blink Start
   }
   25%,
   75% {
-    opacity: 0;
+    opacity: 0.5;
   }
 }
 /*

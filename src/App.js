@@ -5,6 +5,7 @@ import Intro from './Components/Intro';
 import Work from './Components/Work';
 import About from './Components/About';
 import Contact from "./Components/Contact";
+import Badge from "./Components/Badge";
 import { PageNames } from './AppConsts'
 import './App.scss';
 
@@ -21,6 +22,7 @@ function App() {
   const [workRead, setWorkRead] = useState(false);
   const [aboutRead, setAboutRead] = useState(false);
   const [contactRead, setContactRead] = useState(false);
+  const [badgeRead, setBadgeRead] = useState(false);
 
   /**
    * Audio Player
@@ -73,6 +75,7 @@ function App() {
                     <span className="vs-app-dot vs-app-red"></span>
                     <span className="vs-app-dot vs-app-yellow"></span>
                     <span className="vs-app-dot vs-app-green"></span>
+                    <span className="vs-app-dot vs-app-blue"></span>
                   </div>
                   <div className="col text-center">
                     <span className="vs-app-title"></span>
@@ -105,6 +108,12 @@ function App() {
                     &nbsp; src &gt; {PageNames[3]}
                   </p>
                   <Contact contactRead={contactRead} setContactRead={setContactRead}></Contact>
+                </div>
+                <div label={PageNames[4]}>
+                  <p className="vs-app-info-bar">
+                    &nbsp; src &gt; {PageNames[4]}
+                  </p>
+                  <Badge badgeRead={badgeRead} setBadgeRead={setBadgeRead}></Badge>
                 </div>
               </Tabs>
             </div>

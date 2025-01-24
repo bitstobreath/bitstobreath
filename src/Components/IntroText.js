@@ -1,4 +1,3 @@
-import { PageNames } from '../AppConsts';
 import { Component } from 'react';
 
 class IntroText extends Component {
