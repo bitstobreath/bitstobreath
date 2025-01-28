@@ -55,7 +55,7 @@ Tiles.push(new Tile(
     "Cyber Security Student",
     " - developed student knowledge",
     "Cyber Requirements, Pentesting and Defensive Security",
-    "Toronto Metropolitan University",
+    "Toronto Metropolitan TMU",
     "View University",
     "https://www.torontomu.ca/",
     "/tmu.png"
