@@ -1,7 +1,7 @@
 import { Modal } from 'bootstrap';
 import { animated } from "react-spring";
 import { useSpring } from "react-spring";
-import { useGesture } from "react-use-gesture";
+import { useGesture } from "@use-gesture/react";
 
 /**
  * Modal Info
