@@ -20,7 +20,7 @@ class ContactText extends Component {
                 <br/><span style={{color: 'lightgray'}}>7: </span>
                 <span style={{color: 'white'}}><a className="mytwitch text-decoration-none" href="https://www.twitch.tv/bitstobreath">Twitch </a>bitstobreath</span>
                 <br/><span style={{color: 'lightgray'}}>8: </span>
-                <span style={{color: 'white'}}><a className="myfacebook text-decoration-none" href="https://www.facebook.com/bits2breath/">Facebook </a>bits2breath</span>
+                <span style={{color: 'white'}}><a className="myfacebook text-decoration-none" href="https://www.facebook.com/BitsToBreath.FB/">Facebook </a>bitstobreath.FB</span>
             </>
         );
     }
