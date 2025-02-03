@@ -113,6 +113,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.3.0.2] - 2025-02-02 - 10:33 PM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `move renovate.json`
+ * Patch Change `none`
+ * Extra Change `none`
+
+##### Changed
+
+ * Move renovate.json
+
 #### [2.2.0.2] - 2025-02-02 - 09:57 PM EST
 
 ##### Brief
