@@ -14,7 +14,11 @@ class AboutText extends Component {
                 <span style={{ color: 'white' }}>css, js, html, reactjs, bootstrap</span>
                 <br /><span style={{ color: 'lightgray' }}>5: </span>
                 <span style={{ color: 'white' }}>Tools used include:</span>
-                <br /><span style={{ color: 'lightgray' }}>6: </span><span style={{ color: 'white' }}>Figma and VS Code.</span>
+                <br /><span style={{ color: 'lightgray' }}>6: </span>
+                <span style={{ color: 'white' }}>Figma and VS Code.</span>
+                <br /><span style={{ color: 'lightgray' }}>7: </span>
+                <span style={{ color: 'white' }}>GitHub Repository:</span>
+                <br /><span style={{ color: 'lightgray' }}>8: </span><span style={{ color: 'white' }}><a className='mylink' href='https://github.com/bitstobreath/bitstobreath/'>@bitstobreath/bitstobreath</a></span>                
             </>
         );
     }
