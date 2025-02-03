@@ -1,19 +1,15 @@
 # About Me 💪🏾
 
-```paragraph
-I am a '93 who enjoys working on all things tech. 👨🏾‍🔧
-As I scale through the articles online discussing mental health and computational access to web or internet I found a significant correlation between unwellness and internet. 📈 on 🕸️ ~> 😷
-So one of my central concerns is disseminating technology and working with data that allows families to thrive and feel good. 🤰🏾 + 👨🏾‍🍼 & 💻 keeps a 'happy family'.
-As soon as I can develop the required data and code-bases (and hopefully qualifications are met), I will begin build such technologies. 🤺🛡️🧑‍🧑‍🧒‍🧒 (protect your family)
-Context is everything and many people are suffering from bad context technology or low understanding of what technology can do to one's own mind if addiction occurs.
-```
+> I am a '93 who enjoys working on all things tech. 👨🏾‍🔧
+> As I scale through the articles online discussing mental health and computational access to web or internet I found a significant correlation between unwellness and internet. 📈 on 🕸️ ~> 😷
+> So one of my central concerns is disseminating technology and working with data that allows families to thrive and feel good. 🤰🏾 + 👨🏾‍🍼 & 💻 keeps a 'happy family'.
+> As soon as I can develop the required data and code-bases (and hopefully qualifications are met), I will begin build such technologies. 🤺🛡️🧑‍🧑‍🧒‍🧒 (protect your family)
+> Context is everything and many people are suffering from bad context technology or low understanding of what technology can do to one's own mind if problems occur.
 
 ## My Tag Line
 
-```paragraph
-Technologist for safer family assured tech. Futures where tech is safe for all.
-#coding #live #session #teaching
-```
+> Technologist for safer family assured tech. Futures where tech is safe for all.
+> #coding #live #session #teaching
 
 ## Bits To Breath: Links
 

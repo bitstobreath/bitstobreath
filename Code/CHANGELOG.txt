@@ -113,6 +113,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.3.0.4] - 2025-02-03 - 03:35 AM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `none`
+ * Patch Change `none`
+ * Extra Change `README`
+
+##### Changed
+
+ * Update README.md for home github page
+
 #### [2.3.0.3] - 2025-02-03 - 03:30 AM EST
 
 ##### Brief
