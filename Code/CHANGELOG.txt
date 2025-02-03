@@ -113,6 +113,23 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.2.0.2] - 2025-02-02 - 09:57 PM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `delete main and change default branch`
+ * Patch Change `none`
+ * Extra Change `none`
+
+##### Changed
+
+ * Default branch is the development branch
+
+##### Removed
+
+ * Removed the default branch main
+
 #### [2.1.0.2] - 2025-02-02 - 01:16 AM EST
 
 ##### Brief
