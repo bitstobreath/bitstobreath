@@ -113,6 +113,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.3.2.5] - 2025-02-04 - 04:27 PM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `none`
+ * Patch Change `nth-check;postcss`
+ * Extra Change `none`
+
+##### Added
+
+ * Add postcss override, security patch
+ * Add nth-check override, security patch
+
 #### [2.3.0.5] - 2025-02-03 - 03:38 AM EST
 
 ##### Brief
