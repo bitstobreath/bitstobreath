@@ -113,6 +113,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.5.2.5] - 2025-02-06 - 02:49 AM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `build script; build dir`
+ * Patch Change `none`
+ * Extra Change `letsencrypt caddy`
+
+##### Changed
+
+ * Changed to letsencrypt caddy
+ * Changed to build script and build methodologies
+
 #### [2.4.2.5] - 2025-02-06 - 02:49 AM EST
 
 ##### Brief
