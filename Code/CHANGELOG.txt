@@ -113,6 +113,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.5.3.5] - 2025-02-06 - 02:49 AM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `none`
+ * Patch Change `yarn.lock removed and ignored to avoid GitHub warning`
+ * Extra Change `none`
+
+##### Deleted
+
+ * Deleted yarn.lock as GitHub uses yarn over npm
+ * yarn.lock caused a yarn warning if npm is not used for audits
+
 #### [2.5.2.5] - 2025-02-06 - 02:49 AM EST
 
 ##### Brief
