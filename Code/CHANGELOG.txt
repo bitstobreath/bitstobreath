@@ -113,7 +113,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
-#### [2.5.3.5] - 2025-02-06 - 02:49 AM EST
+#### [2.6.3.5] - 2025-02-06 - 02:44 PM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `intro text update`
+ * Patch Change `none`
+ * Extra Change `none`
+
+##### Added
+
+ * Added IntroText.js Native name
+
+#### [2.5.3.5] - 2025-02-06 - 02:39 PM EST
 
 ##### Brief
 
