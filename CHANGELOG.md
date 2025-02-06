@@ -113,6 +113,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### 🌑
 ### Unreleased Phase
 
+#### [2.4.2.5] - 2025-02-06 - 02:49 AM EST
+
+##### Brief
+
+ * Major Change `none`
+ * Minor Change `docker compose;yarn`
+ * Patch Change `none`
+ * Extra Change `none`
+
+##### Added
+
+ * Add docker compose
+ * Add yarn lock
+
 #### [2.3.2.5] - 2025-02-04 - 04:27 PM EST
 
 ##### Brief

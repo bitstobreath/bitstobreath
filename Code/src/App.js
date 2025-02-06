@@ -41,7 +41,7 @@ function App() {
   return (
     <div>
       <audio loop id="audio-player">
-        <source src="https://do-dah-bucket.s3.ca-central-1.amazonaws.com/Good_Night-FASSounds.mp3" type="audio/mpeg"></source>
+        <source src="/Good_Night-FASSounds.mp3" type="audio/mpeg"></source>
         Your browser does not support audio.
       </audio>
       <div className="container">
